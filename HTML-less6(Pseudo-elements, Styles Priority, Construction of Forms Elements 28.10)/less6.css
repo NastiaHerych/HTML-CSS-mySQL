@@ -1,0 +1,92 @@
+div {
+    background: beige;
+    width: 800px;
+    height: 380px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -400px;
+    margin-top: -190px;
+    padding: 50px;
+    border: 4px double black;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    float: left;
+    padding: 0 22px;
+    margin-bottom: 50px;
+}
+
+ul a {
+    display: block;
+    color: black;
+    font-family: sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+br {
+    clear: both;
+}
+
+.menu li {
+    background: url('two.png') no-repeat;
+    padding-top: 30px;
+    background-position: top center;
+}
+
+.menu li:hover {
+    background: url('one.png') no-repeat;
+    padding-top: 30px;
+    background-position: top center;
+}
+
+.menu2 li:before {
+    content: "";
+    border-top: 8px solid transparent;
+    border-left: 8px solid black;
+    border-right: 8px solid black;
+    border-bottom: 8px solid transparent;
+    position: relative;
+    width: 0px;
+    height: 0px;
+    margin: 0 auto;
+    display: block;
+}
+.menu2 li:hover::before {
+    content: "";
+    border-top: 8px solid transparent;
+    border-left: 8px solid orange;
+    border-right: 8px solid orange;
+    border-bottom: 8px solid transparent;
+}
+
+.menu2 a {
+    padding-top: 20px;
+}
+
+.menu3 li::before {
+    content: "★";
+    font-size: 25px;
+    text-align: center;
+    color: blue;
+    display: block;
+}
+
+.menu3 a {
+    padding-top: 10px;
+}
+
+.menu3 li:hover::before {
+    color: black;
+}
+
+
