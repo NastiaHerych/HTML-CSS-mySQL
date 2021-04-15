@@ -1,0 +1,19 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+ol {
+    color: blue;
+}
+
+ul {
+    color: black;
+}
+
+.gray {
+    color: gray;
+}
+
+#compcourse {
+    color: red;
+}
