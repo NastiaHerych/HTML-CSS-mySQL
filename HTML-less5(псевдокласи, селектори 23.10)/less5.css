@@ -1,0 +1,67 @@
+body{
+    background: lightblue;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    clear: both;
+}
+
+img {
+    float: left;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+h2 {
+    color: blue;
+    clear: both;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul.menu li {
+    float: left;
+    margin-bottom: 20px;
+    background: yellow;
+    border-top: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 19.7%;
+}
+
+ul.menu li:first-child {
+    border-left: 1px solid black;
+}
+
+ul.menu a {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+uk {
+    color: blue;
+}
+
+uk:visited {
+    color: blueviolet;
+}
+
+uk:hover {
+    text-decoration: none;
+}
+
+uk:active {
+    color: blue;
+}
+
+ul.ukraine {
+    font-style: italic;
+}

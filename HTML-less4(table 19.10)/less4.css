@@ -1,0 +1,28 @@
+caption {
+    font-size: 22px;
+    font-style: italic
+}
+
+table {
+    border-collapse: collapse;
+}
+
+#FirstColumn {
+    width: 50px;
+}
+
+#TableColumns {
+    width: 150px;
+}
+
+th, td {
+    border: 1px solid black;
+    border-spacing: 0;
+    height: 50px;
+    vertical-align: middle;
+    text-align: center
+}
+
+th {
+    background: yellow;
+}
